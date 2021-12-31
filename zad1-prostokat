@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int prostokat(int a, int b) {
+
+    return  a * b;
+}
+
+
+int main()
+{
+    int a;
+    int b;
+    cout << "Podaj a :" << endl;
+    cin >> a;
+    cout << "Podaj b :" << endl;
+    cin >> b;
+    cout << "Pole prostokata wynosi: " << prostokat(a, b);
+}
+
+
