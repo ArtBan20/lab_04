@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+int kolo(int r) {
+   
+    return  3.14 * r * r;
+}
+int objetosc(int r) {
+   
+    return  2*3.14*4;
+}
+int main()
+{
+    int r;
+    cout << "Podaj r :" << endl;
+    cin >> r;
+    if (r <= 0) {
+        cout << "Obliczenie nie moze zostac wykonane";
+        return 0;
+    }
+    else
+    cout << "Pole kola wynosi: " << kolo(r) << endl;
+    cout << "Objetosc kola wynosi: " << objetosc(r);
+}
+
