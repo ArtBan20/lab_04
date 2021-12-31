@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+bool liczbapierwsza(int l) {
+	int dziel = 0;
+	for (int i = 1; i <= l; i++) {
+		if (l % i == 0) dziel++;
+	}
+	if (dziel == 2) return true;
+	else return false;
+}
+int main() {
+	int l;
+	cout << "Podaj liczbe: "; cin >> l;
+	if (liczbapierwsza(l)) cout << "Liczba jest pierwsza" << endl;
+	else cout << "Liczba nie jest pierwsza" << endl;
+}
