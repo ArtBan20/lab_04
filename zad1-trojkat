@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+float trojkat(float a, float h) {
+
+    return   a * h/2;
+}
+
+int main()
+{
+    float a;
+    float h;
+    cout << "Podaj a :" << endl;
+    cin >> a;
+    cout << "Podaj h :" << endl;
+    cin >> h;
+    cout << "Pole trojkata wynosi: " << trojkat(a,h);
+}
+
+
