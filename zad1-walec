@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int walec(int r, int h) {
+
+    return (2 * 3.14 * r * r) + (2 * 3.14 * r * h);
+}
+int objetosc(int r, int h) {
+    return (3.14 * r * r) * h;
+}
+
+int main()
+{
+    int r, h;
+    cout << "Podaj r: " << endl;
+    cin >> r;
+    cout << "Podaj h: " << endl;
+    cin >> h;
+    cout << " Pole walca wynosi: " << walec(r, h) << endl;
+    cout << " Objetosc walca wynosi: " << objetosc(r, h);
+
+}
+
